@@ -1,6 +1,6 @@
 # Up-Xel 🚀 — an arcade dodger built with Pygame
 
-Collect coins, dodge blocks, race to the finish line. Classic one‑button fun — now with speed‑pads that boost or slow you down!
+Collect coins, dodge blocks, and survive until you hit finish line.
 
 ## Folder layout
 
@@ -16,13 +16,13 @@ Collect coins, dodge blocks, race to the finish line. Classic one‑button fun �
 * **career/** – maps + default save file
 * **build.spec** – PyInstaller recipe
 
-## Controls
+## Default Controls *(configurable)*  
 
 | Key              | Action                   |
 | ---------------- | ------------------------ |
 | Space            | start level / advance    |
-| ← ↑ ↓ →  *(configurable)*         | move player 1            |
-| *(configurable)* | pause, player 2 |
+| ← ↑ ↓ →          | move player 1            |
+| Other            | pause, player 2 |
 
 ## Map legend (career/level files read bottom → top)
 
@@ -30,25 +30,12 @@ Collect coins, dodge blocks, race to the finish line. Classic one‑button fun �
 * `'-'`  : finish line → win
 * `'1'`  : solid block → death
 * `'2'`  : coin → +1 coin
-* `'^'`  : speed‑up pad → +50 % velocity
-* `'v'`  : speed‑down pad → –50 % velocity
+* `'^'`  : speed‑up pad
+* `'v'`  : speed‑down pad
 
 ## Run from source
 
-```bash
 python -m pip install pygame psutil
 python main.py
-```
-
-## Build portable Windows EXE
-
-```bash
-pip install pyinstaller
-pyinstaller build.spec     # output lands in dist/Up-Xel/
-```
 
 All assets are bundled; a writable save‑file is created beside the exe on first run.
-
-## License
-
-MIT — see **LICENSE**.

@@ -1,4 +1,4 @@
-# Up-Xel 🚀 — an arcade dodger built with Pygame
+# Up-Xel | an arcade dodger built with Pygame
 
 Collect coins, dodge blocks, and survive until you hit finish line.
 

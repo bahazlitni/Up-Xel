@@ -21,8 +21,8 @@ Collect coins, dodge blocks, race to the finish line. Classic one‑button fun �
 | Key              | Action                   |
 | ---------------- | ------------------------ |
 | Space            | start level / advance    |
-| ← ↑ ↓ →          | move player 1            |
-| *(configurable)* | pause, ability, player 2 |
+| ← ↑ ↓ →  *(configurable)*         | move player 1            |
+| *(configurable)* | pause, player 2 |
 
 ## Map legend (career/level files read bottom → top)
 

@@ -1,0 +1,25 @@
+# Python --------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.env
+.env/
+
+# Build artifacts -----------------------------------------------------
+build/
+dist/
+*.spec
+.upx/
+*.onefile-build/
+*.exe     # produced exe; we’ll attach it in Releases instead
+*.dll
+
+# IDEs ----------------------------------------------------------------
+.vscode/
+.idea/
+.PyCharm*
+
+# OS -----------------------------------------------------------------
+.DS_Store
+Thumbs.db
